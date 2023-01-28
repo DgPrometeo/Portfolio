@@ -1,29 +1,61 @@
-body {
-    font-family: Arial, sans-serif;
+/*Fuente que utilizamos en la página*/
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;1,200;1,300&display=swap');
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 20px;
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7), url("Banner_big.jpg"));
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#inicio .contenido header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+#inicio .contenido header .contenido-header h1{
     text-align: center;
+    color: red;
 }
 
-header h1 {
-    margin: 0;
+#inicio .contenido header .contenido-header nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
 }
 
-section {
-    padding: 20px;
+#inicio .contenido header .contenido-header nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    font-weight: 400;
+    transition: .5s;
 }
 
-section h2 {
-    margin: 0;
+#inicio .contenido header .contenido-header nav ul a:hover{
+    color: green;
 }
 
-footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    text-align: center;
-}
