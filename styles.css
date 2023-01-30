@@ -12,7 +12,7 @@ html{
 }
 
 #inicio{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7), url("Banner_big.jpg"));
+    background: linear-gradient(rgba(2, 2, 2, 0.7), rgba(5, 5, 5, 0.7), url("teahub.io-vintage-wood-wallpaper-2648877.jpg"));
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -59,13 +59,74 @@ html{
     color: green;
 }
 
+#inicio .contenido header .contenido-header .redes a{
+    text-decoration: none;
+    color: rgb(190, 70, 70);
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+}
+
+#inicio .contenido header .contenido-header .redes a:hover{
+    color: red;
+}
+
 #inicio .contenido .presentacion{
     max-width: 1100px;
     height: 100vh;
     margin: auto;
-    columns: #fff;
+    color: rgb(39, 23, 133);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+#inicio .contenido .presentacion .bienvenida{
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#inicio .contenido .presentacion h2{
+    font-size: 55px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion h2 span{
+    font-size: 40px;
+    color: red;
+}
+
+#inicio .contenido .presentacion .descripcion{
+    max-width: 700px;
+    margin: 25px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 25px;
+    padding: 20px 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+#inicio .contenido .presentacion a:hover{
+    background-color: orangered;
+}
+/*
+#icono-nav{
+    color: white;
+    display: none;
+}
+*/
+
